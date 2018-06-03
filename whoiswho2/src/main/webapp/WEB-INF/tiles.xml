@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="layout" template="/WEB-INF/views/layout.jsp">
+		<put-attribute name="title" value="" />	
+		<put-attribute name="panel" value="/WEB-INF/views/panel.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="layout">
+		<put-attribute name="title" value="Ana Sayfa" />
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+	</definition>
+
+	<definition name="departmanlistele" extends="layout">
+		<put-attribute name="title" value="Departmanlar" />
+		<put-attribute name="body" value="/WEB-INF/views/departmanlistele.jsp" />
+	</definition>
+
+
+	<definition name="personellistele" extends="layout">
+		<put-attribute name="title" value="Personeller" />
+		<put-attribute name="body" value="/WEB-INF/views/personellistele.jsp" />
+	</definition>
+
+	<definition name="personelDetay" extends="layout">
+		<put-attribute name="title" value="PersonelDetay" />
+		<put-attribute name="body" value="/WEB-INF/views/personeldetay.jsp" />
+	</definition>
+	
+		<definition name="emailForm" extends="layout">
+		<put-attribute name="title" value="EmailGönderme" />
+		<put-attribute name="body" value="/WEB-INF/views/emailForm.jsp" />
+	</definition>
+	
+		<definition name="personelKayit" extends="layout">
+		<put-attribute name="title" value="PersonelKayit" />
+		<put-attribute name="body" value="/WEB-INF/views/personelkayit.jsp" />
+	</definition>
+	
+	<definition name="personelGuncelle" extends="layout">
+		<put-attribute name="title" value="PersonelGüncelle" />
+		<put-attribute name="body" value="/WEB-INF/views/personelguncelle.jsp" />
+	</definition>
+	
+
+
+</tiles-definitions>  

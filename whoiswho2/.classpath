@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Tiles"/>
+	<classpathentry kind="lib" path="jarDeposu/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/com.springsource.org.apache.commons.fileupload-1.2.0.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/com.springsource.org.apache.commons.httpclient-3.1.0.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/com.springsource.org.codehaus.jackson.mapper-1.0.0.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/freemarker-2.3.15.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/javassist-3.7.ga.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/jcl-over-slf4j-1.5.8.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/mvel2-2.0.11.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/ognl-2.7.3.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.oxm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.web-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.web.portlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.web.servlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/org.springframework.web.struts-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/slf4j-jdk14-1.5.8.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/spring-beans-2.5.6.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/spring-context-2.5.6.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/spring-core-2.5.6.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/spring-web-2.5.6.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/spring-webmvc-portlet-2.5.6.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-api-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-compat-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-core-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-el-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-extras-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-freemarker-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-jsp-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-mvel-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-ognl-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-portlet-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-portlet-wildcard-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-servlet-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-servlet-wildcard-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-template-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/tiles-velocity-2.2.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/velocity-1.6.2.jar"/>
+	<classpathentry kind="lib" path="jarDeposu/velocity-tools-2.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
